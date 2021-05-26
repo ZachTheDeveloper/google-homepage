@@ -1,0 +1,166 @@
+html {
+ font-family: arial, sans-serif;
+ text-align: center;
+ font-size: 14px;
+ color: rgb(51, 51, 51);
+}
+/* Comment above has styled the font and font size */
+
+.top-nav {
+ list-style-type: none;
+ margin: auto;
+ padding: auto;
+ overflow: hidden;
+}
+/*Comment above has removed the bullet points and removed and margin and padding */
+
+.navbar-right {
+ float: right;
+ position: fixed;
+ right: 0;
+ align-items: baseline;
+}
+
+.navbar-left {
+  float: left;
+ position: fixed;
+ left: 6mm;
+ top: 6mm;
+}
+
+.navbar-right a {
+ padding: 10px;
+}
+
+.navbar-left a {
+padding: 7px;
+}
+
+.searchbaricon {
+ align-items: baseline;
+ text-align: center;
+}
+
+img {
+ display: ;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 260px;
+ margin-bottom: auto;
+ padding-bottom: 25px;
+ max-width: 31%;
+}
+
+
+.input-icons i {
+  position: absolute;
+  color: gray;
+  
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 5px;
+  size: 1mm;
+}
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.input-field {
+  width: 90%;
+  border: none;
+  padding: 13px;
+  text-align: center;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(224, 224, 224);
+
+}
+
+input:hover {
+ border-color: #a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9;
+}
+
+
+
+#search {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+#mic {
+  padding-left: 540px;
+  padding-top: 10px;
+}
+
+.search-buttons {
+  padding-top: 30px;
+  
+}
+
+.google-search {
+  margin-right: 10px;
+  height: 35px;
+  width: 140px;
+  border-style: none;
+  border-radius: 1mm;
+  background-color: rgb(249, 249, 249);
+  font-size: 15px;
+  color: rgb(51, 51, 51)
+}
+
+.im-feeling-lucky {
+  height: 35px;
+  width: 140px;
+  border-style: none;
+  border-radius: 1mm;
+  background-color: rgb(249, 249, 249);
+  font-size: 15px;
+  color: rgb(51, 51, 51)
+}
+
+footer {
+  position: fixed;
+ display: inline-block;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ height: 46px;
+ background-color: rgb(246, 243, 243);
+ color: rgb(51, 51, 51);
+ border-top: 1px solid rgb(224, 224, 224);
+}
+
+.above-bottom-nav {
+  position: fixed;
+  display: inline-block;
+  left: 0;
+  bottom: 11.5mm;
+  height: 50px;
+  background-color: rgb(246, 243, 243);
+  width: 100%;
+}
+
+.country {
+ float: left;
+ padding-left: 10mm;
+ padding-top: 4mm;
+}
+
+
+.left {
+  float: left;
+  padding-left: 50mm;
+  padding-top: 4mm;
+}
+
+.right {
+  padding-top: 4mm;
+}
+
+a {
+  padding: 12px;
+}
